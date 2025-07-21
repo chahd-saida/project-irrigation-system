@@ -17,9 +17,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
         scaffoldBackgroundColor: Colors.grey.shade100,
-        textTheme: const TextTheme(
-          bodyMedium: TextStyle(fontSize: 18),
-        ),
       ),
       home: const HomePage(),
     );
