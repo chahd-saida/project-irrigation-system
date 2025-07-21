@@ -18,8 +18,8 @@ WebServer Server(80);            // Créer un serveur HTTP sur le port 80
 DHT dht(DHTPIN ,DHTTYPE);        // Initialisation du capteur DHT
 
 // Variables globales pour stocker les mesures
-int temperature = 0;             
-int humidity = 0;
+double temperature ;             
+double humidity ;
 int moisturePercent=0;          // Taux d'humidité du sol en pourcentage
 
 
